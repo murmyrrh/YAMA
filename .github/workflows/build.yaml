@@ -97,7 +97,7 @@ jobs:
     - name: Build YAMA Scanner
       run: |
         ./build.bat
-        ./yara-update-build.bat
+        
       shell: powershell
 
     - name: Show ninja build log
