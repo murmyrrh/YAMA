@@ -97,6 +97,7 @@ jobs:
     - name: Build YAMA Scanner
       run: |
         ./build.bat
+        ./clean-build.bat
         
       shell: powershell
 
