@@ -9,4 +9,3 @@ rule APT10_ANEL_InitRoutine {
     	condition:
     		$GetAddress
 }
-
