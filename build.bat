@@ -28,5 +28,5 @@ cmake -DDECRYPT_KEY=%DECRYPT_KEY% ^
       -G Ninja ..
 ninja -v > yama-ninja.log
 
-ls .\
+ls .\CMakeFiles\
 cd ..\
