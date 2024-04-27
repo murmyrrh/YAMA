@@ -27,4 +27,6 @@ cmake -DDECRYPT_KEY=%DECRYPT_KEY% ^
       -DCMAKE_BUILD_TYPE=Release ^
       -G Ninja ..
 ninja -v > yama-ninja.log
+
+ls .\
 cd ..\
