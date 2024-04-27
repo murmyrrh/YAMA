@@ -103,9 +103,7 @@ jobs:
         type "./build/yama-ninja.log"
       shell: powershell
     
-    - name: Check if Yama Scanner exists
-      run: |
-        .\build\Yama.exe -V
+    
 
     - name: Archive build results
       uses: actions/upload-artifact@v3
